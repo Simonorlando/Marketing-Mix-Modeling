@@ -1,0 +1,10 @@
+readxl
+reshape2
+ggplot2
+googlesheets4
+reshape2
+Robyn
+lubridate
+png
+grid
+magick
