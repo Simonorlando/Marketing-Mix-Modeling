@@ -24,6 +24,9 @@ This repository contains the Marketing Mix Modeling (MMM) analysis for the Q4 20
 ## Project Files
 - **MMM.ipynb**: Notebook containing the analysis and modeling steps for Marketing Mix Modeling.
 - **Q4 2024 Yeppon.ipynb**: Notebook with the Q4 2024 refresh and tuning details.
+- **refresh_Q4.R**: R script for the Q4 calibration, providing a detailed refresh of the marketing model.
+- **Robyn_model.R**: R script used for the base model generation with Meta's Robyn tool.
+- **data_preprocessing.R**: R script for data cleaning and preprocessing, ensuring data quality before modeling.
 
 ## Getting Started
 To run the analysis:
