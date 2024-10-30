@@ -1,4 +1,5 @@
 library(googlesheets4)
+library(robyn)
 
 create_files <- TRUE
 robyn_directory <- "~/Desktop"
