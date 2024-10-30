@@ -3,7 +3,7 @@ library(googlesheets4)
 create_files <- TRUE
 robyn_directory <- "~/Desktop"
 url <- ""
-df <- url
+df <- read_sheet(url)
 
 num_rows_with_na <- sum(apply(df, 1, function(row) any(is.na(row)))) 
 print(paste("Numero di righe con almeno un NA:", num_rows_with_na))
