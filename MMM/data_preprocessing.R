@@ -21,6 +21,7 @@ print(paste("Numero di righe con più di un NA:", num_rows_with_multiple_nas))
 # matrice di correlazione
 library(reshape2)
 library(ggplot2)
+                                        
 matrix_data <- df[, c("facebook_cost", "search_cost", "shopping_cost", "bingS_cost", "trova_cost","display_cost","discovery_cost","youtube_cost","bingP_cost","rtg_cost","rtbhouse_cost","criteo_cost","tv_cost","banner_cost","radio_cost","ctv_cost")]
 correlation_matrix <- cor(matrix_data)
 print(correlation_matrix)
