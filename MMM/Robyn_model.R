@@ -1,4 +1,4 @@
-# aggiungo trova
+library(robyn)
 
 create_files <- TRUE
 robyn_directory <- "~/Desktop"
