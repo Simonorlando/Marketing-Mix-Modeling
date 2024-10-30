@@ -1,7 +1,8 @@
+library(googlesheets4)
 create_files <- TRUE
 robyn_directory <- "~/Desktop"
-library(googlesheets4)
-url <- "https://docs.google.com/spreadsheets/https://docs.google.com/spreadsheets/d/1nQLBQPUoFhhkoG31GWJV9lJXooX78HeKPbi9Kf_CYF8/edit?gid=849784351#gid=849784351//edit"
+url <- ""
+df <- url
 num_rows_with_na <- sum(apply(df, 1, function(row) any(is.na(row)))) 
 print(paste("Numero di righe con almeno un NA:", num_rows_with_na))
 num_rows_with_multiple_nas <- sum(apply(df, 1, function(row) sum(is.na(row)) > 1))
