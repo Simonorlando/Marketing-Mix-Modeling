@@ -1,6 +1,6 @@
 create_files <- TRUE
 robyn_directory <- "~/Desktop"
-file_path <- "/Users/digitalangels/Desktop/Dataset Yeppon MMM (Simone).xlsx"  
+file_path <- ""  
 df <- read_excel(file_path, sheet = 1)
 
 #righe con almeno un NA
